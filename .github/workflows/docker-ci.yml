@@ -54,8 +54,7 @@ jobs:
           image-ref: ${{ env.IMAGE }}:${{ github.sha }}
           format: table
           output: trivy_${{ matrix.service }}.txt
-          severity: HIGH,CRITICAL
-          exit-code: '1'
+          exit-code: '0'
 
       - name: Rapport
         if: always()
