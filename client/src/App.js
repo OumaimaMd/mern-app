@@ -19,3 +19,4 @@ const App = () => {
 }
 
 export default App
+// Test de construction sélective du client
