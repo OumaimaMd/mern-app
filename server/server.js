@@ -30,3 +30,4 @@ async function startServer() {
 }
 
 startServer();
+// Test de construction sélective du serveur
