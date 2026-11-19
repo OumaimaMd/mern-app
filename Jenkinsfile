@@ -30,6 +30,7 @@ pipeline {
                     changeset 'server/**'
                     changeset 'Jenkinsfile'
                     expression { env.BUILD_NUMBER == '1' }
+                    expression { true }
                 }
             }
 
@@ -66,6 +67,7 @@ pipeline {
                     changeset 'client/**'
                     changeset 'Jenkinsfile'
                     expression { env.BUILD_NUMBER == '1' }
+                    expression { true }
                 }
             }
 
